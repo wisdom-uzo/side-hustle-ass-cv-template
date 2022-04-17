@@ -12,22 +12,24 @@ const Contact = () => {
         <div className="app-contact-de">
             <div className="row">
                 <GrMapLocation  className="icon" />
-                <p>City, State</p>
+                <p>24 cemetery road
+                LAGOS 101212</p>
             </div>
 
             <div className="row">
                 <GrContactInfo  className="icon"/>
-                <p>123-234-5565-232</p>
+                <p>+234 7018 410663</p>
             </div>
 
             <div className="row">
                <GrMail  className="icon"/>
-                <p>yourGmail@gmail.com</p>
+                <p>Wisdomuzodimna@gmai
+                .com</p>
             </div>
 
             <div className="row">
                 <GrGithub className='icon'/>
-                <p>yourGmail@gmail.com</p>
+                <p>https://github.com/wisdom-uzo</p>
             </div>
             
         </div>

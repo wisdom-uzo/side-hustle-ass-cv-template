@@ -7,13 +7,10 @@ const About = () => {
         <h2 className="app-header">About Me</h2>
 
         <div className="">
-            <p className='app-about-content'>Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Accusantium quae iusto sed 
-            facere ipsa dolores hic delectus adipisci quisquam 
-            explicabo, autem rem dolor voluptate similique quas, 
-            iste perspiciatis illum? Minus fugit vel numquam, 
-            dolorem at commodi magnam. 
-            Reprehenderit, consectetur error!</p>
+            <p className='app-about-content'>Organized and enthusiastic web designer with one years of 
+            experience creating and maintaining functional, eye-catching websites. Proven record of 
+            collaborating with team members and clients effectively. 
+            In previous role, utilized SEO optimization techniques to boost website traffic by 200%.</p>
         </div>
     </div>
   )

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: content-box;
+  overflow-x: hidden;
 }
 .App{
   width: 100%;
@@ -11,19 +12,24 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 2rem 0;
+  padding: 2rem 0rem;
 
   
 }
 .app-header{
   margin-bottom: 1.6rem;
+  background-color: #1448f3;
+  color: white;
+  padding: 3px 5px;
+  box-shadow: 5px 5px 9px rgb(228, 227, 227);
 }
 .cv-app-container{
   background: white;
-  width: 60%;
-  border: 1px solid black;
+  box-shadow: 20px 20px 1000px rgb(28, 3, 255);
+  border-radius: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  grid-template-columns: 1fr 50%; 
 }
 
 .app-Experience, 
@@ -65,8 +71,9 @@
   bottom: 10px;
   text-align: center;
   width: 100%;
-  background: rgb(255, 196, 0);
+  background-color: #1448f3;
   padding: 10px 0px;
+  color: white;
 }
 .app-contact-de{
   padding: 2rem;
@@ -83,18 +90,19 @@
 }
 .progress{
  width: 70%;
- border: 1px solid yellow;
+ border: 1px solid #1448f3;
  border-radius: 10px;
 }
 
 
 .icon{
-  background-color: yellow;
+  background-color: #1448f3;
   width: 1.5rem;
   padding: 9px;
   height: 1.5rem;
   margin-right: 1rem;
   border-radius: 100%;
+  color: white;
 }
 .app-contact-de .row{
   display: flex;
@@ -109,7 +117,16 @@
 
 .app-about-content{
   text-align: justify;
-  font-size: 0.9rem;
-  font-family: sans-serif;
+  font-size: 1rem;
   color: rgb(37, 37, 37);
 }
+
+
+
+@media only screen and (max-width: 800px) {
+  .cv-app-container {
+    width: 100%;
+  }
+
+}
+
